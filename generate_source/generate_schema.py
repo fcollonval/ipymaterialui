@@ -106,7 +106,7 @@ def make_type(type_content):
             'default': None
         }
 
-    if type_ == 'custom' and 'raw' in type_content.keys() and 'AcceptingRef' in type_content['raw']:
+    if type_ == 'custom' and (('raw' in type_content.keys() and 'AcceptingRef' in type_content['raw']) or type_content['raw'] == 'HTMLElementType'):
         return {
             'type': 'widgetRef',
             'widgetType': 'DOMWidget',
