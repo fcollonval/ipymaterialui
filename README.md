@@ -20,7 +20,7 @@ To install use pip:
     $ jupyter labextension install jupyter-materialui             # for lab
 
 
-For a development installation (requires npm),
+For a development installation (requires npm, python 2.7 and make),
 
     $ git clone https://github.com/maartenbreddels/ipymaterialui.git
     $ cd ipymaterialui
