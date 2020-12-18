@@ -39,6 +39,7 @@
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "@jupyterlab/apputils": "^2.0.0",
     "css-loader": "^1.0.1",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.1",

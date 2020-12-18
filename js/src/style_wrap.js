@@ -1,4 +1,3 @@
-export
-function styleWrapper(element) {
-    return element;
+export function styleWrapper(element) {
+  return element;
 }
